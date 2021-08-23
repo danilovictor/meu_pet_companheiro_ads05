@@ -19,3 +19,8 @@ nav li a.active-cadastrar{
      background-color:#8e44ad;
      color:white;
 }
+
+nav .img-logo{
+     width:130px;
+     height:50px;
+}
