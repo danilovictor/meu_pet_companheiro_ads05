@@ -24,3 +24,8 @@ nav .img-logo{
      width:130px;
      height:50px;
 }
+
+.hover-default:hover{
+     background-color:white;
+     color:#ED4C67;
+}
