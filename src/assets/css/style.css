@@ -1,0 +1,21 @@
+nav li a {
+     color:#ED4C67;
+}
+nav{
+     background-color:white;
+     max-width: 1140px;
+     padding-left: 10px;
+}
+
+nav li a.active{
+     background-color:#ED4C67;
+     color:white;
+}
+nav li a.active-login{
+     background-color:#16a085;
+     color:white;
+}
+nav li a.active-cadastrar{
+     background-color:#8e44ad;
+     color:white;
+}
