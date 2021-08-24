@@ -18,6 +18,5 @@
   },
   "homepage": "https://github.com/danilovictor/meu_pet_companheiro_ads05#readme",
   "dependencies": {
-    "@splidejs/splide": "^2.4.21"
   }
 }
