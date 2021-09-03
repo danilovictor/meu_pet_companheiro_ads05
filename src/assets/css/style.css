@@ -1,36 +1,57 @@
 
-
-nav li a {
-     color:#ED4C67;
-}
-nav{
-     background-color:white;
-     max-width: 1140px;
-     padding-left: 10px;
-}
-
-nav li a.active{
-     background-color:#ED4C67;
-     color:white;
-}
-nav li a.active-login{
-     background-color:#16a085;
-     color:white;
-}
-nav li a.active-cadastrar{
-     background-color:#8e44ad;
-     color:white;
-}
-
-nav .img-logo{
-     width:130px;
+.menu{
+     display:flex;
+     width:100%;
+     justify-content:space-between;
+     background-color:rgb(255, 255, 255);
      height:50px;
 }
 
-.hover-default:hover{
-     background-color:white;
-     color:#ED4C67;
+.menu ul{
+     width:100%;
+     list-style-type:none;
+     margin-top: 15px;
+     margin-right: 65px;
+
 }
+
+.menu ul li{
+     display:inline;
+     padding:10px;
+     margin-right: 10px;
+}
+
+.menu ul li a{
+     text-decoration: none;
+     margin-right:20px;
+     color:#ED4C67;
+     font-size:13px;
+     font-weight:bold;
+     font-family: 'Nunito';
+     margin-right: 30px;
+}
+
+ .menu ul li a.active-cadastro{
+     color:#8E44AD ;
+}
+ .menu ul li a.active-login{
+     color:#89E5CF;
+}
+
+.menu ul li a.active-cadastro:hover{
+     color:white ;
+     background-color: #8E44AD ;
+     padding: 10px;
+     border-radius: 3px;
+}
+.menu ul li a.active-login:hover{
+     color:white ;
+     background-color:#89E5CF ;
+     padding: 8px;
+     border-radius: 3px;
+}
+
+
 /* Style Banner */
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -165,6 +186,7 @@ section .card-grafico{
      justify-content: center;
      align-items: center;
      margin-top: 20px;
+     margin-bottom: 40px;
 }
 
 .btn-adotar{
@@ -182,9 +204,8 @@ section .card-grafico{
 }
 
 .btn-adotar:hover{
-     background-color:white;
+     background-color:rgb(231, 211, 253);
      color: #8e44ad;
-     border: 3px solid #762abd;
 }
 
 .footer-page{
@@ -208,6 +229,18 @@ section .card-grafico{
      padding: 10px;
      border-radius:5px;
      font-size: 14px;
+}
+
+.teste-bg{
+     background-color: #16a085;
+}
+
+.footer-page{
+     background-color:#16a085;
+}
+
+.text-reset{
+     text-decoration: none;
 }
 
 
