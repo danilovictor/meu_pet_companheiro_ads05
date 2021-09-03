@@ -182,8 +182,32 @@ section .card-grafico{
 }
 
 .btn-adotar:hover{
-     background-color:#8e44ad;
-     color: white;
+     background-color:white;
+     color: #8e44ad;
+     border: 3px solid #762abd;
+}
+
+.footer-page{
+     font-family:'Nunito';
+     font-size:18px;
+}
+
+.btn-help{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 80px;
+}
+
+.buton-help{
+     text-decoration: none;
+     background-color:#FF7F50;
+     color:black;
+     font-weight: bold;
+     font-family: 'Nunito';
+     padding: 10px;
+     border-radius:5px;
+     font-size: 14px;
 }
 
 
