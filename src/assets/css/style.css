@@ -17,7 +17,6 @@
 
 .menu ul li{
      display:inline;
-     padding:10px;
      margin-right: 10px;
 }
 
@@ -41,14 +40,14 @@
 .menu ul li a.active-cadastro:hover{
      color:white ;
      background-color: #8E44AD ;
-     padding: 10px;
      border-radius: 3px;
+     transition:all 1.9s;
 }
 .menu ul li a.active-login:hover{
      color:white ;
      background-color:#89E5CF ;
-     padding: 8px;
      border-radius: 3px;
+     transition:all 0.9s;
 }
 
 
@@ -211,7 +210,38 @@ section .card-grafico{
 .footer-page{
      font-family:'Nunito';
      font-size:18px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     height:220px;
+     padding:25px;
 }
+
+.footer-page a{
+     text-decoration: none;
+     color:white;
+}
+.footer-aling{
+     display: flex;
+     flex-direction: column;
+}
+.footer-direita{
+     display: flex;
+     flex-direction: column;
+}
+
+.footer-rodape{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height:40px;
+     background-color:#16a085;
+     color: white;
+     margin-top: 10px;
+     padding: 20px;
+}
+
 
 .btn-help{
      display: flex;
