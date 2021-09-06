@@ -1,0 +1,17 @@
+
+
+
+.form-login{
+    height:665px;
+    width:650px;
+    background-color:#75D6B3;
+    margin: 0 auto;
+    margin-top:120px;
+    margin-bottom:20px;
+    border-radius:5px;
+    color:white;
+}
+
+label{
+    color:white;
+}
