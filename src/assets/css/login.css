@@ -1,17 +1,58 @@
-
-
-
 .form-login{
-    height:665px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#75D6B3 ;
+    margin:0 auto;
     width:650px;
-    background-color:#75D6B3;
-    margin: 0 auto;
-    margin-top:120px;
-    margin-bottom:20px;
+    height:665px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius:5px;
-    color:white;
 }
 
 label{
-    color:white;
+    font-family: 'Nunito';
+    font-weight:bold;
+    padding: 20px;
+    margin:10px;
+    font-size:14px;
+
+}
+
+form input[type=text],form input[type=password]{
+    padding: 5px;
+    font-family: "Nunito";
+}
+
+form input {
+    width:60%;
+    margin:10px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+}
+
+form input [type=checkboc]{
+    margin:0;
+    padding:0;
+}
+
+form a.btn-signup{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#8E44AD;
+    color:#fff;
+    font-family: 'Nunito';
+    font-weight: bold;
+    padding:5px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    height:50px;
+}
+
+.footer-page{
+    margin-bottom:-10px;
 }
