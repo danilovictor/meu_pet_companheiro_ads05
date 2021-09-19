@@ -1,0 +1,11 @@
+.donations{
+    height:600px;
+    width:944px;
+    background-color:#FF7F50 ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
