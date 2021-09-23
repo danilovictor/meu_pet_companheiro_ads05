@@ -8,6 +8,13 @@
     border-radius: 5px;
 }
 
+.text-donation{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
 .description{
     font-size:15px;
     font-family: 'Nunito';
