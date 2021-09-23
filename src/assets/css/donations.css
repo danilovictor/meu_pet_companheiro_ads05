@@ -2,9 +2,6 @@ main .donations{
     height:600px;
     width:944px;
     background-color:#FF7F50 ;
-    display:flex;
-    justify-content:center;
-    align-items:center;
     margin-bottom: 40px;
     margin-top: 30px;
     border-radius: 5px;
@@ -23,20 +20,16 @@ main .donations{
     font-size: 15px;
     font-family: 'Nunito';
 
+}
+
 main{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items:center;
-
 }
 
-.img-qrcode{
-    display: flex;
-    align-items:center;
+main .img-qqcode{
+    display:flex;
     justify-content: space-between;
-}
-
-.img-qrcodemp img {
-    height: 131px;
-    width: 137px;
+    align-items:space-between;
 }
