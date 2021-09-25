@@ -1,5 +1,5 @@
 main .donations{
-    height:700px;
+    height:800px;
     width:944px;
     background-color:#FF7F50 ;
     margin-bottom: 40px;
@@ -46,4 +46,5 @@ main .img-qrcode img{
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
+    margin-top:10px;
 }
