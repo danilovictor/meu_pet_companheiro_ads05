@@ -1,5 +1,5 @@
 main .donations{
-    height:600px;
+    height:700px;
     width:944px;
     background-color:#FF7F50 ;
     margin-bottom: 40px;
@@ -17,7 +17,7 @@ main .donations{
 
 .title-helpmoney{
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     font-family: 'Nunito';
 
 }
@@ -39,4 +39,11 @@ main .img-qrcode img{
     height:130px;
     width:100px;
     padding:10px;
+}
+
+.wireframe{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
 }
