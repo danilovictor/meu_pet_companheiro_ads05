@@ -23,3 +23,10 @@ main .adotar-container{
      color:#8e44ad;
      font-weight:bold;
 }
+
+.card img {
+     height: 150px;
+     width: 190px;
+     padding-left:50px;
+     padding-top: 10px;
+}
