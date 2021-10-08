@@ -3,7 +3,7 @@ var options = {
        type: 'bar'
      },
      series: [{
-       name: 'sales',
+       name: 'Animais adotados',
        data: [ 30.925 ,20.102 ,78.092, 30.863 ,12.626 ,60 ,70 ,91 ,125 ]
      }],
      xaxis: {
