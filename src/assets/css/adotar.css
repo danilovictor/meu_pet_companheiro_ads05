@@ -30,3 +30,10 @@ main .adotar-container{
      padding-left:50px;
      padding-top: 10px;
 }
+
+.card-text{
+     font-family: 'Nunito';
+     text-align:justify;
+     font-size:15px;
+     padding-top: 10px;
+}
