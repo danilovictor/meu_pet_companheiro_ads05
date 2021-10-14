@@ -5,6 +5,7 @@ main .adotar-container{
      flex-direction:row;
      flex-wrap:wrap;
      flex:1;
+     margin: 10px;
 }
 
 .search-adote{
