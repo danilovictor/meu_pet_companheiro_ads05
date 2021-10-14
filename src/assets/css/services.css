@@ -29,3 +29,41 @@ main .cards-services{
      font-family: 'Nunito';
      font-size:30px;
 }
+
+.card-serice{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+
+     
+}
+
+.card-area img{
+     width:110px;
+     height:99px;
+     
+}
+
+.card-area{
+     flex: 1;
+     margin-left: 53px;
+     margin-right:53px;
+     margin-bottom: 20px;
+     padding: 10px;
+     background-color:#89E5CF;
+     text-align: center;
+     margin-top: 10px;
+     border-radius: 5px;
+     font-size: 14px;
+     font-family:'Nunito';
+     font-weight: bold;
+     color:#762abd;
+}
+
+.link-service {
+     text-decoration: none;
+     background-color: white;
+     padding: 5px;
+     border-radius: 5px;
+}
