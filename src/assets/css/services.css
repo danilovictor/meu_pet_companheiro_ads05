@@ -1,0 +1,31 @@
+.services-container{
+     background-color:rgb(114, 174, 226);
+     
+}
+
+main .cards-services{
+     display: flex;
+     justify-content: center;
+     align-items: space-around;
+     background-color: aquamarine;
+     
+}
+
+.content{
+     background-color: antiquewhite;
+     display: flex;
+     justify-content: center;
+     align-items: space-around;
+}
+
+
+.cards-services img{
+     height: 200px;
+     width:200px;
+}
+
+.title-avaliation{
+     text-align: center;
+     font-family: 'Nunito';
+     font-size:30px;
+}
