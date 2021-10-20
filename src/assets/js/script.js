@@ -1,9 +1,7 @@
 let exibirModal = document.getElementById('modaljs');
 
-
 exibirModal.addEventListener('click',mostrarAlert);
 
-
 function mostrarAlert(){
-     alert('seu pedido de adoção está sendo analisado')
+     swal( " Seu pedido de adoção está em análise " , " Em breve entramos em contato com você via whatsapp ou E-mail! " , " warning " );
 };
