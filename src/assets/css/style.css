@@ -355,6 +355,18 @@ display: inline-block;
 
 
 
+@media (max-width:768px){
+     .menu ul li a{
+          font-size: 7px;
+     } 
+}
+
+@media (max-width:480px){
+     .menu ul li a{
+          font-size: 8px;
+     } 
+}
+
 
 
 
