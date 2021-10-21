@@ -42,5 +42,10 @@ main .adotar-container{
 #modaljs{
      border:none;
      background-color:#8e44ad;
-     
+     font-family: 'Nunito';
+     text-transform:uppercase;
+     font-weight:bold;
+     color: white;
+     padding:10px;
+     border-radius:5px;
 }
