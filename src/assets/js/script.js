@@ -7,25 +7,22 @@ function mostrarAlert(){
 };
 
 
-function login(){
-     var done = 0;
-     var usuario = document.getElementById('email')[0].value;
-     var senha = document.getElementById('senha')[0].value;
-
+function login(event){
+     event.preventDefault();
+     var usuario = document.querySelector('#emaillogin')[0].value;
      usuario = usuario.toLowerCase();
+
+     var senha = document.querySelector('#senhalogin')[0].value;
      senha = senha.toLowerCase();
 
 
-     if ( usuario == "admin" & senha =="admin"){
-          window.location = "../../../dashboard-admin/dashboard.html"
-          done = 1;
+     if (usuario =="admin " && senha == "admin"){
+          alert('Dados corretos')
+          window.location = "adotar.html"
+     } 
+     else{
+          alert('Dados incorretos');
      }
-
-     if(done == 0){
-          alert('Dados incorretos, tente novamente');
-     }
-
-
 }
 
 
