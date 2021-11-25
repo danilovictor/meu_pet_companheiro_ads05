@@ -6,24 +6,24 @@ exibirModal.addEventListener('click',mostrarAlert);
       Math.random()
  }
 
-
-
-function mostrarAlert(){
+ function mostrarAlert(){
      swal( ` Seu pedido de adoção está em análise ! Em breve entramos em contato com você via whatsapp ou E-mail! `);
 }
 
 
 function Login(event) {
      event.preventDefault();
-     var usuario = document.getElementById('emaillogin').value;
+     var usuario = document.getElementById('#emaillogin').value;
      usuario = usuario.toLowerCase();
-     var senha = document.getElementById('senhalogin').value;
+     var senha = document.getElementById('#senhalogin').value;
      senha = senha.toLowerCase();
    
-     if (usuario == "bcf" && senha == "bcf") {
+     if (usuario == "jessica22" && senha == "1445") {
        alert("dados corretos");
        window.location = "index.html";
-     }else{
+     }
+     
+     else{
        alert("Dados incorretos, tente novamente");
      }
    }
