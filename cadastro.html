@@ -105,20 +105,22 @@
                     <input type="text" name="" placeholder="Digite sua cidade" id="cidade">
                 </label> <br/>
                 <label for=""> TELEFONE 
-                    <input type="tel" name="" placeholder="(88) 88888-8888" id="telefone" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" required>
+                    <input type="telefone" name="" placeholder="(88) 88888-8888" id="telefone" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" required>
                 </label> <br/>
                 <label for=""> E-MAIL 
                     <input type="email" name="" placeholder="Digite seu E-mail" id="email" required>
                 </label> <br/>
                 <label for=""> SENHA 
-                    <input type="password" name="" placeholder="Digite sua senha" id="senha" maxlength="8" required>
+                    <input type="password" name="" placeholder="Digite sua senha" id="password" maxlength="8" required>
                 </label> <br/>
                 <label for=""> CONFIRME SUA SENHA 
-                    <input type="password" name="" placeholder="Repita sua senha" id="senha" maxlength="8" required>
+                    <input type="password" name="" placeholder="Repita sua senha" id="password" maxlength="8" required>
                 </label> <br/>
 
 
                 <input type="submit" value="Cadastrar" class="btn-signup">
+
+                <button id="addBtn">Cadastrar1</button>
 
 
 
@@ -161,7 +163,7 @@
       </footer>
 
    
-   
+    <!-- <script src="./db/conectionfirebase.js"></script> -->
    
     <script src="./src/assets/js/script.js"></script>
 
@@ -172,6 +174,79 @@
     <script src="./src/assets/fontawesone/js/solid.js"></script>
   
     <script src="./src/assets/fontawesone/js/fontawesome.js"></script>
+
+
+    
+    <script type="module">
+        // // Import the functions you need from the SDKs you need
+        import { initializeApp } from 'firebase/app';
+        // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+        import { getDatabase } from "firebase/database";
+        // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-analytics.js";
+        // // TODO: Add SDKs for Firebase products that you want to use
+        // // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // // Your web app's Firebase configuration
+        // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyByWBuE_dE_UKPVXN5zQ_FxB31aRTq_qjY",
+          authDomain: "meupetcompanheirodev.firebaseapp.com",
+          databaseURL: "https://meupetcompanheirodev-default-rtdb.firebaseio.com",
+          projectId: "meupetcompanheirodev",
+          storageBucket: "meupetcompanheirodev.appspot.com",
+          messagingSenderId: "10191534958",
+          appId: "1:10191534958:web:ccf5f1cce84f4be32f1f7f",
+          measurementId: "G-8CCY7S0ZEJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        import {getDatabase , ref , set , child , update , remove}
+
+        from "https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"
+
+
+            const userName = document.getElementById('nome');
+            const userCpf = document.createElement('cpf');
+            const cidade = document.getElementById('cidade');
+            const userTel = document.getElementById('telefone');
+            const userEmail = document.getElementById('email');
+            const userPass = document.getElementById('password');
+            const addBtn = document.getElementById('addBtn');
+
+
+        const db = getDatabase(app);
+
+            function insertData(){
+                set(ref(db , "user/"+ userName.value), {
+                
+                User : userName.value,
+                cpf : userCpf.value,
+                country : cidade.value,
+                telefone : userTel.value,
+                email : userEmail.value,
+                password : userPass.value
+                
+                })
+                .then(()=>{
+                    alert('Dados inseridos')
+                })
+                
+                .catch((err)=>{
+                    alert(' dados não inseridos , error' +err);
+                })
+            }
+
+            addBtn.addEventListener('click',insertData)
+
+
+
+
+      </script>
+
+
 
 </body>
 </html>
